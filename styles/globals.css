@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.ant-input-suffix{
+        @apply block pb-1
+}
+.ant-checkbox{
+        @apply hidden
+}
+
+.ant-checkbox-wrapper{ 
+        @apply whitespace-nowrap cursor-pointer rounded bg-slate-800 md:px-5 md:py-3 px-3 py-2 text-white select-none transition duration-300 
+}
+
+/* .ant-checkbox-wrapper-checked:nth-child(1){
+    @apply bg-slate-400
+    
+} */
+.ant-checkbox-wrapper-checked:nth-child(1){
+    @apply bg-youtube
+
+    }
+.ant-checkbox-wrapper-checked:nth-child(2){
+    @apply bg-twitter
+
+    }
+.ant-checkbox-wrapper-checked:nth-child(3){
+    @apply bg-reddit
+
+    }
+.ant-checkbox-wrapper-checked:nth-child(4){
+    @apply bg-reddit
+
+    }
+
+
+/* Pagination */
+.ant-pagination {
+@apply text-white
+
+    }
+
+.ant-tabs-tab-btn{
+    @apply ml-0
+}
+.ant-tabs-tab-btn{
+    @apply bg-slate-800 rounded text-xs border border-slate-700 shadow-sm text-white py-1 px-3 transition-all duration-300
+ }
+ .ant-tabs-tab-active > div{
+    @apply bg-slate-500 text-sm 
+ }
+ .ant-tabs-tab-active ~ .ant-tabs-tab-btn {
+    @apply text-slate-800
+ }
