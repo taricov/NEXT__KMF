@@ -1,11 +1,7 @@
 import AppSearchService from "../components/AppSearchService";
 
 function index() {
-  return (
-    <div>
-      <AppSearchService />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default index;

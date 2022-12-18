@@ -7,7 +7,7 @@ import {
 } from "@ant-design/icons";
 import { AiTwotoneHeart } from "react-icons/ai";
 import { Avatar, Card, Skeleton } from "antd";
-import Meta from "antd/es/card/Meta";
+// import Meta from "antd/es/card/Meta";
 import { useState } from "react";
 
 export default function AppCard() {
@@ -34,11 +34,11 @@ export default function AppCard() {
         ]}
       >
         <Skeleton loading={loading} avatar active>
-          <Meta
+          {/* <Meta
             avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
             title="Card title"
             description="This is the description"
-          />
+          /> */}
         </Skeleton>
       </Card>
     </div>

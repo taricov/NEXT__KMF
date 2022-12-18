@@ -1,4 +1,14 @@
 import { Tabs } from "antd";
+import faker from "@faker-js/faker";
+
+// const users: string[] = [];
+
+// const fakeData = (): any => faker.color.rgb();
+// console.log(fakeData());
+
+// Array.from({ length: 10 }).forEach(() => {
+//   users.push(fakeData());
+// });
 
 export default function FeaturedTopics() {
   return (
